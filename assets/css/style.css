@@ -28,7 +28,8 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header nav {
+/*REMOVED header*/
+ nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,11 +37,14 @@ header nav {
     font-size: 20px;
 }
 
+/* DON"T NEED THIS 
 header nav ul {
     list-style-type: none;
 }
+*/
 
-header nav ul li {
+/* REMOVED header */ 
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -53,7 +57,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px; /*INCREASED FONT SIZE SLIGHTLY*/
 }
 
 /* HERO DIV WITH BACKGROUND IMAGE */
@@ -89,7 +93,7 @@ main {
 
 /* BENEFITS ASIDE */
 
-.benefits {
+.benefit-block { /*changed from .benefit TO .benefit-block to avoid confusion*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -97,7 +101,7 @@ main {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #2a607c; /*CHANGED COLOR TO MATCH HEADER*/
 }
 
 .benefit {
@@ -116,14 +120,18 @@ main {
     max-width: 150px;
 }
 
+aside p {
+    text-align: center; /*ALIGNED TEXT TO CENTER*/
+}
+
 /* SERVICES SECTIONS */
 
 .service {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 311px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #2a607c; /*CHANGED COLOR TO MATCH PAGE HEADER*/
     color: #ffffff;
 }
 
